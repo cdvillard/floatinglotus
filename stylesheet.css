@@ -82,11 +82,20 @@ section {
 
 /* Section "cards" */
 
-#flotus {
+/*#flotus {
   height: 100%;
   background-color: #fff;
   padding: 25px;
   box-shadow: 10px 10px 5px #888888;
+}*/
+
+#flotus {
+  font-family: 'Kaushan Script', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #33cccc;
+  font-size: 1.25em;
+
 }
 
 #about {
