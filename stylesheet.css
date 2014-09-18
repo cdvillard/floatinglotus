@@ -2,9 +2,9 @@
 body {
   max-width: 800px;
   margin-left: auto;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   background-image:url(wave.png);
   background-color: #5CFFFF;
   font-family: sans-serif;
@@ -14,7 +14,7 @@ body {
 
 /* Menu Styling */
 
-#menu {
+/*#menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -46,7 +46,7 @@ body {
   color: white;
   padding: 0px 20px 0px 0px;
   font-family: 'Kaushan Script', sans-serif;
-}
+}*/
 
 /* Logo Positioning */
 
@@ -105,7 +105,7 @@ section {
   box-shadow: 10px 10px 5px #888888;
 }
 
-#services {
+/*#services {
   height: 100%;
   background-color: #fff;
   padding: 25px;
@@ -159,4 +159,4 @@ section {
   display: inline-block;
   width: 145px;
   padding-bottom: 5px;
-}
+}*/
