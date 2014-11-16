@@ -1,15 +1,16 @@
 
 body {
   max-width: 800px;
-  margin-left: auto;
-  margin-top: 100px;
-  margin-right: auto;
-  margin-bottom: 100px;
+  margin: auto auto 50px auto;
   background-image:url(wave.png);
   background-color: #5CFFFF;
   font-family: sans-serif;
   padding: 0em 2em;
 
+}
+
+#top {
+  height: 100px;
 }
 
 /* Menu Styling */
@@ -95,7 +96,6 @@ section {
   color: white;
   text-shadow: 2px 2px #33cccc;
   font-size: 1.25em;
-
 }
 
 #about {
