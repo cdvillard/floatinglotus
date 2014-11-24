@@ -154,11 +154,11 @@ section {
   width: 300px;
 }
 
-#contact .thanks {
+#contactform .thanks {
   display: none;
   color: #b11a29;
 }
 
-#contact:target .thanks {
+#contactform:target .thanks {
   display: inherit;
 }
