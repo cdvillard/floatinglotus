@@ -20,18 +20,18 @@
 <ul>
 <div class="col-xs-4 col-sm-4 col-lg-4">
 <li>
-<a href="#" class="smoothScroll" style="text-decoration: none;"><img id="menulogo" src="menulogo.png" /></a>
+<a data-scroll href="#" class="smoothScroll" style="text-decoration: none;"><img id="menulogo" src="menulogo.png" /></a>
 </li>
 </div>
 <div class="col-xs-7 col-sm-6 col-lg-5">
 <li>
-<a href="#srv" class="smoothScroll" style="text-decoration: none;">Services</a>
+<a data-scroll href="#srv" class="smoothScroll" style="text-decoration: none;">Services</a>
 </li>
 <li>
-<a href="#spc" class="smoothScroll" style="text-decoration: none;">Specialties</a>
+<a data-scroll href="#spc" class="smoothScroll" style="text-decoration: none;">Specialties</a>
 </li>
 <li>
-<a href="#cnt" class="smoothScroll" style="text-decoration: none;">Contact</a>
+<a data-scroll href="#cnt" class="smoothScroll" style="text-decoration: none;">Contact</a>
 </li>
 </div>
 </ul>
@@ -166,9 +166,12 @@
 </div>
 <div class="col-xs-1"></div>
 </section>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+<footer>
+<script src="dist/js/smooth-scroll.js"></script>
+<script>
+    smoothScroll.init();
+</script>
+</footer>
 </body>
 
 </html>
