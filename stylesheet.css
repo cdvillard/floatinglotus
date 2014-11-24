@@ -35,6 +35,10 @@ section {
   margin-top: 50px;
 }
 
+section p {
+  margin-bottom: 20px;
+}
+
 #logo {
   padding-top: 125px;
 }
