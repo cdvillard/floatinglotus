@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 
-
 <html>
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Floating Lotus</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Floating Lotus</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 
 <body>
 
-<nav>
-<div id="top" class="row">
-<div class="col-xs-1 col-sm-1 col-lg-1"></div>
-<ul>
-<div class="col-xs-4 col-sm-4 col-lg-4">
-<li>
-<a data-scroll href="#top" class="smoothScroll" style="text-decoration: none;"><img id="menulogo" src="menulogo.png" /></a>
-</li>
-</div>
-<div class="col-xs-7 col-sm-6 col-lg-5">
-<li>
-<a data-scroll href="#srv" class="smoothScroll" style="text-decoration: none;">Services</a>
-</li>
-<li>
-<a data-scroll href="#spc" class="smoothScroll" style="text-decoration: none;">Specialties</a>
-</li>
-<li>
-<a data-scroll href="#cnt" class="smoothScroll" style="text-decoration: none;">Contact</a>
-</li>
-</div>
-</ul>
-<div class="col-xs-1 col-sm-2 col-lg-3"></div>
-</div>
+
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+
+	<div id="top" class="navbar-header">
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+	</div>
+
+	<div id="navbarCollapse" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li><a data-scroll href="#top" class="smoothScroll" style="text-decoration: none;"><img id="menulogo" src="menulogo.png" /></a></li>
+			<li><a data-scroll href="#srv" class="smoothScroll" style="text-decoration: none;">Services</a></li>
+			<li><a data-scroll href="#spc" class="smoothScroll" style="text-decoration: none;">Specialties</a></li>
+			<li><a data-scroll href="#cnt" class="smoothScroll" style="text-decoration: none;">Contact</a></li>
+		</ul>
+	</div>
+
 </nav>       
 
 <div class="row">
@@ -168,6 +167,7 @@
 <div class="col-xs-1"></div>
 </section>
 <footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="javascript/smooth-scroll.min.js"></script>
 <script>
     smoothScroll.init();
