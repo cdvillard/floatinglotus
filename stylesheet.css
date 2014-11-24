@@ -159,6 +159,6 @@ section {
   color: #b11a29;
 }
 
-#contact:target .confirmation {
+#contact:target .thanks {
   display: inherit;
 }
