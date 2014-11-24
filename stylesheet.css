@@ -154,8 +154,11 @@ section {
   width: 300px;
 }
 
-#contact .name {
-  display: inline-block;
-  width: 145px;
-  padding-bottom: 5px;
+#contact .thanks {
+  display: none;
+  color: #b11a29;
+}
+
+#contact:target .confirmation {
+  display: inherit;
 }
