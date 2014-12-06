@@ -1,32 +1,30 @@
 body {
+  max-width: 900px;
   margin: auto auto 50px auto;
   background-image:url(wave.png);
   background-color: #5CFFFF;
   font-family: sans-serif;
 }
-
 .navbar-default {
   font-size: 150%;
   font-family: 'Kaushan Script', sans-serif;
 }
-
+.navbar-default ul {
+  max-width: 800px;
+}
 .navbar-brand img {
   display: block;
   margin: -10px 0px;
 }
-
 section {
   margin-top: 50px;
 }
-
 section p {
   margin-bottom: 20px;
 }
-
 #logo {
   padding-top: 125px;
 }
-
 #flotus {
   font-family: 'Kaushan Script', sans-serif;
   text-align: center;
@@ -34,21 +32,18 @@ section p {
   text-shadow: 2px 2px #33cccc;
   font-size: 1.25em;
 }
-
 #about {
   height: 100%;
   background-color: #fff;
   padding: 25px;
   box-shadow: 10px 10px 5px #888888;
 }
-
 #services {
   height: 100%;
   background-color: #fff;
   padding: 25px;
   box-shadow: 10px 10px 5px #888888;
 }
-
 #services img {
   display: block;
   margin-left: auto;
@@ -56,35 +51,40 @@ section p {
   max-height: 80%;
   max-width: 80%;
 }
-
 #services h3 {
   text-align: center;
 }
-
 #specialties {
   height: 100%;
   background-color: #fff;
   padding: 25px;
   box-shadow: 10px 10px 5px #888888;
 }
-
 #contact {
   height: 100%;
   background-color: #fff;
   padding: 25px;
   box-shadow: 10px 10px 5px #888888;
 }
-
-#contactform input, textarea, p {
+#contactform input, 
+textarea, 
+p {
   width: 100%;
   margin-top: 5px;
 }
-
 #contactform .thanks {
   display: none;
   color: #b11a29;
 }
-
 #contactform:target .thanks {
   display: inherit;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 768px) {
+  body {
+    max-width: 600px;
+  }
 }
