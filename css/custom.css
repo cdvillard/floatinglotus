@@ -22,8 +22,14 @@ section {
 section p {
   margin-bottom: 20px;
 }
+#navigation-bar {
+  max-width: 800px;
+}
+
 #logo {
   padding-top: 125px;
+  min-width: 400px;
+  margin: 0 auto;
 }
 #flotus {
   font-family: 'Kaushan Script', sans-serif;
