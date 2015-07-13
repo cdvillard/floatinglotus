@@ -38,18 +38,13 @@ section p {
   text-shadow: 2px 2px #33cccc;
   font-size: 1.25em;
 }
-#about {
+#about, #services, #contact, #disc {
   height: 100%;
   background-color: #fff;
   padding: 25px;
   box-shadow: 10px 10px 5px #888888;
 }
-#services {
-  height: 100%;
-  background-color: #fff;
-  padding: 25px;
-  box-shadow: 10px 10px 5px #888888;
-}
+
 #services img {
   display: block;
   margin-left: auto;
@@ -60,18 +55,7 @@ section p {
 #services h3 {
   text-align: center;
 }
-#specialties {
-  height: 100%;
-  background-color: #fff;
-  padding: 25px;
-  box-shadow: 10px 10px 5px #888888;
-}
-#contact {
-  height: 100%;
-  background-color: #fff;
-  padding: 25px;
-  box-shadow: 10px 10px 5px #888888;
-}
+
 #contactform input, 
 textarea, 
 p {
