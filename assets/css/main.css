@@ -2145,12 +2145,22 @@
 			form .field.half {
 				width: 50%;
 				float: left;
-				padding: 0 0 0 0.75em;
+				padding: 0 0 0 0.5em;
 			}
 
 				form .field.half.first {
 					padding: 0 0.75em 0 0;
 				}
+        
+    form .field.third {
+      width: 33.3%;
+      float: left;
+      padding: 0 0 0 0.75em;
+    }
+
+      form .field.third.first {
+        padding: 0 0.75em 0 0;
+      }
 
 		form > .actions {
 			margin: 2em 0 0 0 !important;
