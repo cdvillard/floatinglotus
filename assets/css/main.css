@@ -2176,13 +2176,13 @@
 
 		@media screen and (max-width: 736px) {
 
-			form .field.half {
+			form .field.third {
 				width: 100%;
 				float: none;
 				padding: 0;
 			}
 
-				form .field.half.first {
+				form .field.third.first {
 					padding: 0;
 				}
 
